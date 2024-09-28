@@ -23,7 +23,7 @@ btn.addEventListener('click', () => {
         for (let i = 1; i <= diceImg.length; i++) {
             if (i === dice) {
                 img.src = diceImg[i - 1];
-                li.innerHTML = `Roll ${index}: <img src="${diceImg[i - 1]}" alt="dice">`;
+                li.innerHTML = `Roll ${index}: <img src="${diceImg[i - 1]}" alt="dice" id="li-dice">`;
                 document.querySelector('ul').appendChild(li);
             }
         }

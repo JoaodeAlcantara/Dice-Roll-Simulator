@@ -26,7 +26,7 @@ button {
     height: 40px;
     position: relative;
     color: ghostwhite;
-    font-size: 20px;
+    font-size: 25px;
     background-color:  #47a5c4;
     border-radius: 10px;
     border: none;
@@ -37,19 +37,23 @@ button {
 ul {
     list-style: none;
     margin: 0 auto;
-    width: 40%;
+    min-width: 40%;
 }
 
 ul li {
     display: flex;
     font-weight: 500;
     justify-content: space-between;
+    align-items:center ;
     border: solid 1px black;
     margin: 20px;
     height: 55px;
     padding: 15px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 22px;
+}
+ul li #li-dice{
+    height: 50px;
 }
 
 @keyframes roll {
